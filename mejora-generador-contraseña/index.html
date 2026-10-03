@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+    <html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Generador de contraseñas aleatorias</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body class="body">
+        <section class="section">
+            <h1 class="section-h1">Generador de Contraseñas</h1>
+            <form action="" class="form">
+                <div>
+                    <label for="">Selecciona los tipos de caracteres</label>
+                    <div class="section-h1-div-div">
+                        <div class="section-h1-div-div-div--inputP">
+                            <input type="checkbox" name="caracterEspeciales" id="caracterEspeciales">
+                            <p>Caracteres Especiales</p>
+                        </div>
+                        <div class="section-h1-div-div-div--inputP">
+                            <input type="checkbox" name="caracteresMayusculas" id="caracteresMayusculas">
+                            <p>Mayusculas</p>
+                        </div>
+                        <div class="section-h1-div-div-div--inputP">
+                            <input type="checkbox" name="caracteresMinusculas" id="caracteresMinusculas">
+                            <p>Minusculas</p>
+                        </div>
+                        <div class="section-h1-div-div-div--inputP">
+                            <input type="checkbox" name="numeros" id="numeros">
+                            <p>Números</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-h1-div2">
+                    <label for="numeroCaracteres" >Selecciona la cantidad de caracteres: <span id="numeroCaracteres" class="numeroCaracteres"></span></label>
+                    <input type="range" name="rangoCaracteres" class="rangoCaracteres" id="rangoCaracteres">
+                </div>
+                <button class="botton" type="button">Generar contraseña</button>
+            </form>
+            <div class="contraseña">
+                <p class="contraseña-texto">Aquí se genera la contraseña</p>
+            </div>
+        </section>
+        <script src="./scripts.js"></script>
+    </body>
+
+</html>

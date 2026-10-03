@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Generador de Contraseñas Seguras",
+  "version": "1.0.0",
+  "description": "Genera contraseñas aleatorias y seguras al instante con un solo clic.",
+  "icons": {
+    "16": "/48.png",
+    "48": "/48.png",
+    "128": "/128.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "/48.png",
+      "48": "/48.png",
+      "128": "/128.png"
+    },
+    "default_title": "Generar Contraseña"
+  },
+  "permissions": [
+    "clipboardWrite"
+  ]
+}
